@@ -1,0 +1,33 @@
+body {
+  width: 60%;
+  margin: 0 auto;
+  padding: 2% 0;
+  background-color: #ddd;
+  font-family: 'Helvetica Neue', sans-serif;
+  line-height: 1.5;
+}
+
+main {
+  background-color: white;
+  color: #444;
+  padding: 5%;
+}
+
+h1, h2 {
+  font-weight: 500;
+  color: rgb(140, 76, 8);
+}
+
+address {
+  display: flex;
+  flex-direction: column;
+}
+
+address > div {
+  display: flex;
+  align-items: center;
+}
+
+div > img {
+  padding: 10px 10px 10px 0;
+}
