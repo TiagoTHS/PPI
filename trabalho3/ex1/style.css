@@ -11,21 +11,12 @@ main {
   background-color: white;
   color: #444;
   padding: 5%;
+  border-radius: 3px;
 }
 
 h1, h2 {
   font-weight: 500;
   color: rgb(140, 76, 8);
-}
-
-address {
-  display: flex;
-  flex-direction: column;
-}
-
-address > div {
-  display: flex;
-  align-items: center;
 }
 
 div > img {
