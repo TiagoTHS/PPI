@@ -1,0 +1,129 @@
+#home-body {
+  margin: 0;
+  padding-bottom: 3em;
+  background-color: #ddd;
+  font-family: 'Helvetica Neue', sans-serif;
+  line-height: 1.5;
+}
+
+#home-title {
+  color: #444;
+}
+
+#home-nav {
+  background-color: #444;
+  position: sticky;
+  top: 0;
+}
+
+#home-nav ul {
+  width: 18%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#home-nav li {
+  display: inline-block;
+  padding: 1em;
+}
+
+#home-nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+#home-main {
+  width: 70%;
+  margin: 0 auto;
+  padding: 2% 3%;
+  background-color: white;
+  border: 1px solid #c9c7c7;
+  border-bottom: 1px solid grey;
+}
+
+#galeria-body {
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 3em;
+}
+
+#galeria-title {
+  padding: 3%;
+}
+
+#galeria-nav, #galeria-title, #galeria-address {
+  color: white;
+  background-color: #444; 
+  border-radius: 10px;
+}
+
+#galeria-nav ul {
+  width: 26%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#galeria-nav li {
+  display: inline-block;
+  padding: 1em;
+}
+
+#galeria-nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+#galeria-main {
+  background-color: white;
+  padding: 3% 5%;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+.tabela-galeria td {
+  padding: 5px;
+}
+
+.tabela-galeria img {
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px gray;
+}
+
+#login-main {
+  max-width: 300px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 2px 2px 2px 2px gray;
+  border-radius: 10px;
+  padding: 2em;
+}
+
+#login-main label {
+  display: block;
+}
+
+#login-main form button {
+  width: 100%;
+}
+
+body {
+  background-color: #ddd;
+  font-family: 'Helvetica Neue', sans-serif;
+  line-height: 1.5;
+}
+
+h2 {
+  color: #444;
+}
+
+h1 {
+  text-align: center;
+}
+
+address {
+  text-align: center;
+  padding: 10px;
+}
